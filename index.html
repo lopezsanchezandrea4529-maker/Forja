@@ -1,6 +1,9 @@
 <title>ForgeLab 1045</title>
+
 <meta name="claude:viewport-fit-sides" content="cover">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+
 <style>
 /* Layout: panel de entradas a la izquierda; a la derecha tratamiento identificado, propiedades con su respaldo y prueba de tensión. */
 :root{
@@ -9,6 +12,7 @@
   --ok:#1f7a3f; --ok-soft:#dcf1e3; --warn:#8a5a00; --warn-soft:#fbefcf; --bad:#a32424; --bad-soft:#f9dcdc; --gray-soft:#e8ebee;
   --f-head:"Space Grotesk",system-ui,sans-serif; --f-body:"Inter",system-ui,sans-serif;
 }
+  
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#14181c; --surface:#1c2227; --fg:#e8ecef; --muted:#9aa5ae; --line:#2e373e;
   --heat:#ff8a4c; --heat-soft:#3a2418; --steel:#8fb4d1;
@@ -18,10 +22,13 @@
   --heat:#ff8a4c; --heat-soft:#3a2418; --steel:#8fb4d1;
   --ok:#6fcf8f; --ok-soft:#1b3326; --warn:#e8bd5a; --warn-soft:#3a2f12; --bad:#ff8c8c; --bad-soft:#3d2020; --gray-soft:#262e34; color-scheme:dark}
 *{box-sizing:border-box}
+
 body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:14px;line-height:1.5;
   padding-block:22px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .wrap{max-width:1080px;margin:0 auto}
+
 h1,h2,h3{font-family:var(--f-head);margin:0;text-wrap:balance}
+
 header{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;justify-content:space-between;margin-bottom:18px}
 h1{font-size:26px;letter-spacing:-.01em}
 h1 span{color:var(--heat)}
@@ -130,7 +137,7 @@ table.guide td:nth-child(3){min-width:260px}
 </style>
 <div class="wrap">
 <header>
-  <h1>Forge<span>Lab</span> · acero 1045</h1>
+  <h1>Forja XD<span>Lab</span> · acero 1045</h1>
   <p class="sub">Indique cómo se calentó y enfrió la pieza. La página identifica el tratamiento, estima sus propiedades con la base de datos y evalúa si una carga de tensión la rompe.</p>
 </header>
 <section class="panel intro">
